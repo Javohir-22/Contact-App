@@ -1,0 +1,28 @@
+.regular {
+	font-family: 'Outfit-Regular', sans-serif;
+	font-size: 1.6rem;
+	font-weight: 400;
+	line-height: 2rem;
+}
+
+.medium {
+	font-family: 'Outfit-Medium', sans-serif;
+	font-size: 1.8rem;
+	font-weight: 500;
+	line-height: 2.4rem;
+}
+
+.medium-26{
+	font-family: 'Outfit-Medium', sans-serif;
+	font-size: 2.6rem;
+	font-weight: 500;
+	line-height: 3.8rem;
+}
+
+
+.semi-bold {
+	font-family: 'Outfit-Semi-Bold', sans-serif;
+	font-size: 3.2rem;
+	font-weight: 600;
+	line-height: 4rem;
+}

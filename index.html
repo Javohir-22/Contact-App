@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./assets/css/base.css" />
+		<link rel="stylesheet" href="./assets/css/typography.css" />
+		<link rel="stylesheet" href="./assets/css/utilities.css" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+		<script defer src="./assets/js/script.js"></script>
+		<script defer src="./assets/js/chuseLang.js"></script>
+		<script defer src="./assets/js/nightMode.js"></script>
+		<title>Contact App</title>
+	</head>
+	<body>
+		<div class="main-container">
+			<div class='menu btn'></div>
+			<header class="header">
+				<div class="container flex-between">
+					<div class="header-left flex">
+						<a href="https://github.com/Javohir-22/Contact-app.git">
+							<button class="btn flex night ">
+								<span class="text-1 regular">Website codes</span>
+								<div class="code-icon"></div>
+							</button>
+						</a>
+						<button class="btn regular log-in night">Login</button>
+					</div>
+					<h1 class="semi-bold text-2">Contacts</h1>
+					<div class="header-right flex">
+					<button class="btn flex night" id='night'>
+						<div class="night-icon"></div>
+						<span class="regular text-3">Night mode</span>
+					</button>
+					<div class='lang '>
+						<p class='regular btn'>En</p>
+						<div class="chuse-lang">
+							<button class='btn' onclick="changeLanguage('en')">En</button>
+							<button class='btn' onclick="changeLanguage('ru')">Ru</button>
+							<button class='btn' onclick="changeLanguage('uz')">Uz</button>
+						</div>
+					</div></div>
+				</div>
+			</header>
+
+			<main class="main">
+				<div class="container flex-between">
+					<section class="section-edit flex-column">
+						<h2 class="medium-26 text-4">Create a contact</h2>
+						<div class="edit-contact">
+							<div class="contact-top flex">
+								<div class="edit-images">
+									<img src="./assets/images/user.png" alt="img-user" />
+									<input type="file" name="file" id="input__img" class="input input__img" accept='images/*'>
+									<label for="input__img"></label>
+									
+								</div>
+							</div>
+							<div class="contact-bottom flex-column">
+								<div class="inp-block">
+									<input type="text" class="inp regular name" placeholder='Name' required/>
+									<img class='icons' alt="name icon" />
+								</div>
+								<div class="inp-block">
+									<input type="text" class="last-name inp regular" placeholder='Last Name' />
+									<img class='icons' alt="second name" />
+								</div>
+								<div class="inp-block">
+									<input type="number" class="number inp regular" required placeholder='Phone Number' />
+									<img class='icons' alt="phone" />
+								</div>
+								<div class="inp-block">
+									<input type="email" class="email inp regular" placeholder='Email Addres'/>
+									<img class='icons' alt="email" />
+								</div>
+								<div class="inp-block">
+									<input type="text" class="about inp regular" placeholder='More information'/>
+									<img class='icons' alt="about" />
+								</div>
+								<button class='btn-edit inp'>
+									<img class='icons' alt="star prime">
+									<span class='regular'>Add</span>
+								</button>
+							</div>
+						</div>
+					</section>
+					<section class="section-contacts flex-column">
+						<h2 class='medium-26 text-5'>Contacts</h2>
+						<div class="contacts">
+							<div class="user flex-between">
+								<h4 class="user-name medium ">User</h4>
+								<img src="./assets/images/user.png" alt="user photo" class="user-photo">
+							</div>
+							<div class="block-search">
+								<img class='icons' alt="search icon">
+								<input id='
+								searchInput' class='regular' type="text" placeholder='Contact search'>
+								<h6 class="regular text-6">
+									Everything</h6>
+							</div>
+							<div id='searchResults' class="contact-list">
+								
+						</div>
+					</section>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="container">
+					<p class="regular text-7">Creater: Javohir Sultanov</p>
+				</div>
+			</footer>
+		</div>
+		<div class="modal-log flex">
+			<div class="edit-contact">
+				<div class="contact-top flex">
+					<button class='close-mod'>
+					<img src="./assets/images/x-regular-36.png" alt="x icon">
+				</button>
+					<div class="edit-images">
+						<img src="./assets/images/user.png" alt="img-user" />
+						<input type="file" name="file" id="input__img" class="input input__img" accept='images/*'>
+						<label for="input__img"></label>
+						
+					</div>
+				</div>
+				<div class="contact-bottom flex-column">
+					<div class="inp-block">
+						<input type="text" class="inp regular name-log" placeholder='Name' required/>
+						<img src='./assets/images/user-regular-24.png' alt="name icon" />
+					</div>
+					<div class="inp-block">
+						<input type="text" class="last-name-log inp regular" placeholder='Last Name' />
+						<img src='./assets/images/icons8-users-30.png' alt="second name" />
+					</div>
+					<button class='btn-login regular'>
+						Login
+					</button>
+				</div>
+			</div>
+			<img class='img-con' src="./assets/images/contact 1.png" alt="">
+			<img class='group' src="./assets/images/Group.png" alt="">
+			<img class='group' src="./assets/images/Group.png" alt="">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,198 @@
+@media only screen and (max-width: 1410px) {
+	.main-container {
+		max-width: 125rem;
+	}
+
+	.img-con {
+		max-width: 40rem;
+		max-height: 40rem;
+	}
+
+	.group {
+		max-width: 6rem;
+		max-height: 6rem;
+	}
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.main {
+		padding: 10rem 1rem 5rem 1rem;
+		
+	}
+
+	.contacts {
+		width: 68rem;
+	}
+
+	.block-about {
+		max-width: 54.5rem;
+	}
+}
+
+@media only screen and (max-width: 1100px) {
+	.regular {
+		font-family: 'Outfit-Regular', sans-serif;
+		font-size: 1.4rem;
+		font-weight: 400;
+		line-height: 1.8rem;
+	}
+	
+	.medium {
+		font-family: 'Outfit-Medium', sans-serif;
+		font-size: 1.6rem;
+		font-weight: 500;
+		line-height: 2.2rem;
+	}
+	
+	.medium-26{
+		font-family: 'Outfit-Medium', sans-serif;
+		font-size: 2.4rem;
+		font-weight: 500;
+		line-height: 3.6rem;
+	}
+	
+	
+	.semi-bold {
+		font-family: 'Outfit-Semi-Bold', sans-serif;
+		font-size: 3rem;
+		font-weight: 600;
+		line-height: 3.8rem;
+	}
+	.contacts {
+		width: 63rem;
+	}
+
+	.block-about {
+		max-width: 49.5rem;
+	}
+
+	.edit-contact {
+		width: 34rem;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.main .container {
+		flex-direction: column;
+	}
+
+	.section-edit {
+		margin: 0 auto;
+		display: none;
+	}
+
+	.edit-contact {
+		width: 40rem;
+	}
+
+	.section-contacts {
+		margin: 0 auto;
+		display: none;
+	}
+	.contacts {
+		width: 70rem;
+	}
+	.block-about {
+		max-width: 56rem;
+	}
+
+	.menu {
+		display: block;
+	}
+	.img-con {
+		max-width: 30rem;
+		max-height: 30rem;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.img-con {
+		display: none;
+	}
+
+	.group {
+		display: none;
+	}
+
+	.text-1, .text-3 {
+		display: none;
+	}
+
+	.btn {
+		padding: 0.6rem;
+	}
+
+	.lang p {
+		width: max-content;
+		padding: 0.9rem ;
+	}
+
+	.log-in {
+		min-width: 0;
+		padding: 0.9rem;
+	}
+}
+
+@media only screen and (max-width: 720px) {
+	.contacts {
+		width: 50rem;
+	}
+
+	.block-about {
+		max-width: 36.5rem;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.contacts {
+		width: 37.5rem;
+	}
+
+	.edit-contact {
+		width: 37.5rem;
+	}
+
+	.person {
+		margin: 0;
+	}
+
+	.block-person.active {
+    height: 11rem;
+	}
+
+	.block-about {
+		gap: 3rem;
+		max-width: 27rem;
+	}
+
+	.block-about h5 {
+		left: 5rem;
+	}
+
+	.person-img {
+		max-width: 6.4rem;
+		max-height: 6.4rem;
+	}
+
+	.edit-images {
+		max-width: 11.6rem;
+		max-height: 11.6rem;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.main {
+		padding: 10rem 0 5rem 0;
+	}
+
+	.contacts {
+		width: 36rem;
+	}
+
+	.edit-contact {
+		width: 36rem;
+	}
+}
